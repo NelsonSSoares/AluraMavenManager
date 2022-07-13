@@ -24,4 +24,13 @@
   	
   </dependencies>
   
+  <!--
+  	ADCIONANDO REPOSITORIO EXTERNO
+  <repositories>
+  	<repository>
+  		<id>spring-repo</id>
+  		<url>https://repo.spring.io/release</url>
+  	</repository>
+  </repositories>
+  -->
 </project>
