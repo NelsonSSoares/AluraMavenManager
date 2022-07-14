@@ -72,3 +72,39 @@
 		</plugins>
 	</build>
 </project>
+
+
+<!-- ADD SETTING.XML NA PASTA .M2 PARA CONFIGURAÇÃO DE PROXY
+
+
+	<settings xmlns="http://maven.apache.org/SETTINGS¹1.0.0"
+
+//código omitido
+
+    <proxies>
+        <proxy>
+                    <id>genproxy</id>
+                    <active>true</active>
+                    <protocol>http</protocol>
+                    <host>proxyHost</host>
+                    <port>3128</port>
+                    <username>username</username>
+                    <password>password</password>
+        </proxy>
+    </proxies>
+
+    </settings>
+    	
+    	DEFININDO MODULOS PARA PROJETOS EXTERNOS E MUITO GRANDES
+    	MODULO PAI RECEBE POM NA TAG PACKING
+    	MESMO GROUPID SO MUDAS O NOME
+    	MUDOLOS FILHOS RECEBEM A TAG <PARENT> PARA REFERENCIAR O POM PAI
+    <modeles>
+    	<module>projeto1</module>
+    	<module>projeto2</module>
+    	<module>projeto3</module>
+    </mmodules>
+    
+    
+	
+-->
